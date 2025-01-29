@@ -159,9 +159,3 @@ jupyter notebook Team_461_Final_Project.ipynb
 - **Apply Machine Learning for Predictive Analytics**:
   - Use **Random Forest, SVM, or XGBoost** to predict patient satisfaction levels based on review text.
 
----
-
-## ⭐ If You Find This Project Useful, Please Give It a Star on GitHub!
-If this project helped you, consider **starring** ⭐ the repository to support!
-
-Click the **Star** button at the top of the GitHub page. 🌟
