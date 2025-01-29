@@ -44,7 +44,7 @@ The dataset (`reviews_jan20_dec20_df`) consists of **Yelp reviews on doctors** d
 - **Time-series sentiment trends** to track patient satisfaction.
 
   ![Sentiment Trend Over Time](./assets/SentimentTrendOverTime.png)
-  ![Distribution Count](./assets/DistributionCount.png)
+  <img src="assets/DistributionCount.png" width="650" height="500">
 
 ### **3️⃣ Topic Modeling with LDA**
 Identified **5 key topics** in patient reviews:
