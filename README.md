@@ -34,17 +34,47 @@ The dataset (`reviews_jan20_dec20_df`) consists of **Yelp reviews on doctors** d
 - Distribution of **ratings, word frequencies, and review lengths**.
 - Common words in **positive vs. negative** reviews.
 
+  <img src="assets/Positive.png" width="450" height="300">
+  <img src="assets/Negative.png" width="450" height="300">
+
 ### **2️⃣ Sentiment Analysis with BERT**
 - **Fine-tuned BERT model (`textattack/bert-base-uncased-SST-2`)** classifies reviews as **Positive** or **Negative**.
+  ![Sentiment](./assets/Sentiment.png)
+
 - **Time-series sentiment trends** to track patient satisfaction.
+
+  ![Sentiment Trend Over Time](./assets/SentimentTrendOverTime.png)
+  ![Distribution Count](./assets/DistributionCount.png)
 
 ### **3️⃣ Topic Modeling with LDA**
 Identified **5 key topics** in patient reviews:
 1. **Negative Patient Experience** (rude staff, insurance issues, poor communication).
+
+   <img src="assets/Topic1.png" width="850" height="500">
+
+---
+
 2. **Doctor & Medical Care** (appointments, surgeries, treatment effectiveness).
+
+   <img src="assets/Topic2.png" width="850" height="500">
+
+---
+
 3. **Positive Healthcare Experiences** (friendly staff, professional care).
+
+   <img src="assets/Topic3.png" width="850" height="500">
+
+---
+
 4. **Operational & Administrative Issues** (waiting times, scheduling, COVID-19 protocols).
+
+   <img src="assets/Topic4.png" width="850" height="500">
+
+---
+
 5. **Specific Treatments & Conditions** (dermatology, physical therapy, botox).
+
+   <img src="assets/Topic5.png" width="850" height="500">
 
 ---
 
